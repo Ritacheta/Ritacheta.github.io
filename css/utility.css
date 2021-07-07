@@ -7,8 +7,16 @@
 .justify-between{
     justify-content: space-between;
 }
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 .btn{
-    padding: 0.5rem 2rem;
+    padding: 0.8rem 2.5rem;
     font-size: 1rem;
     font-weight: 600;
     border: 2px solid transparent;
