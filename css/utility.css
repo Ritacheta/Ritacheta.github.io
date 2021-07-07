@@ -34,3 +34,18 @@
     border-color: var(--primary);
     color: var(--primary);
 }
+.btn-secondary{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.btn-secondary:hover{
+    background: var(--primary);
+    color: var(--dark);
+}
+.flex1{
+    flex: 1;
+}
+.justify-center{
+    justify-content: center;
+}
