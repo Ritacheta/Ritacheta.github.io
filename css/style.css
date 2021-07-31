@@ -192,6 +192,7 @@ section.skills .card-wrapper .card{
     position: relative;
     text-align: center;
     transition: all 0.3s ease;
+    border-radius: 15px 50px;
 }
 section.skills .card-wrapper .card img{
     position: absolute;
@@ -217,4 +218,58 @@ section.skills .card-wrapper .card:hover h2{
 }
 section.skills .card-wrapper .card:hover p{
     color: var(--pure);
+}
+section.blog{
+    background: var(--dark);
+    padding-top: 1rem;
+}
+section.blog .section-heading{
+    color: var(--light);
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    line-height: 0.5;
+}
+section.blog .section-heading span{
+    color: var(--primary);
+}
+section.blog .card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 3rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+section.blog .card-wrapper .card{
+    background: var(--pure);
+    border-radius: 50px 15px;
+}
+section.blog .card-wrapper .card .card-content{
+    padding: 2rem;
+    padding-top: 1rem;  
+    padding-bottom: 1rem; 
+}
+section.blog .card-wrapper .card .card-content h1{
+    font-size: 1rem;
+    font-weight: 600;
+}
+section.blog .card-wrapper .card .card-content h1:hover{
+    color: var(--primary);
+}
+section.blog .card-wrapper .card .card-content p{
+    font-family: 'Lato',sans-serif;
+    color: var(--ternary);
+    margin-bottom: 0rem;
+}
+section.blog .card-wrapper .card .card-content a{
+    color: var(--dark);
+    text-decoration: none;
+}
+section.blog .card-wrapper .card .img-wrapper img{
+    height: 150px;
+    width: 100%;
+}
+section.blog .card-wrapper .card .card-content a.read-more{
+    font-size: 0.8rem;
+    text-align: center;
 }
