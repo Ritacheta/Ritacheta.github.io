@@ -119,8 +119,8 @@ section.about .social a{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;  
     margin-right: 0.6rem;
     transition: all .3s ease;
@@ -210,7 +210,7 @@ section.skills .card-wrapper .card p{
     line-height: 1.6;
 }
 section.skills .card-wrapper .card:hover{
-    background-color: var(--dark);
+    background-color: rgba(100, 100,100,0.6);
 }
 section.skills .card-wrapper .card:hover h2{
     color: var(--primary);
